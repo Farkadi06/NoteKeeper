@@ -7,12 +7,12 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/spinner_courses"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,8 +25,21 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        app:layout_constraintEnd_toEndOf="@+id/spinner2"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_courses"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="@+id/spinner2"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
+        app:layout_constraintStart_toStartOf="@+id/spinner_courses"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_courses" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextMultiLine3"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextMultiLine3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
